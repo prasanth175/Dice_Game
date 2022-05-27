@@ -1,0 +1,85 @@
+body{
+    background-color: #dcdcb8cf;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+    color: #29b6f6;
+    font-size: 2rem;
+}
+
+h1{
+    font-family: 'Lobster', cursive rgba(241, 21, 21, 0.759);
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    color: #d11e1e;
+}
+
+.container{
+    font-family: 'Lobster', cursive;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dice1{
+    flex: 0%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.dice2{
+    flex: 0%; 
+    text-align: left;
+    margin-left: 10%;
+  margin-bottom: 10px;
+  
+     
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border: 10px solid rgb(228, 14, 14);
+    border-radius: 30px;
+}
+
+.play1{
+    margin-right: 16%;
+    margin-bottom: 7%;
+}
+
+.play2{
+    margin-left: 16%;
+    margin-bottom: 7%;
+}
+
+.Btn{
+    text-align: center;
+}
+
+.btn{
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: rgba(5, 5, 196, 0.832);
+    padding: 10px 50px;
+    border-style: none;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #29b6f6;
+    color: #d11e1e;
+    padding: 10px 30px;
+    transition: 1s;
+}
+
+footer{
+    text-align: center;
+    margin-top:6% ;
+    
+}
